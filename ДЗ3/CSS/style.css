@@ -1,0 +1,36 @@
+@import url("reset.css");
+.article {}
+
+.title_text {
+    color: #f5f5dc;
+    
+}
+
+.mark_linc {
+    color: #8a2be2;
+}
+
+.article_text p{
+    color:#0e9b38;
+}
+.article_text>p{
+    color: #2b2a2df5;
+}
+
+.linc {
+    color: #b22222;
+}
+
+.title {
+    color: #0c08f7;
+}
+.return {
+    color:#0e9b38;
+}
+.paragraph,
+.article_text{
+color: #aae11df5;
+}
+.return + p {
+    color: coral;
+}
