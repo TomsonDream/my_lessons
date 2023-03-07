@@ -1,0 +1,178 @@
+@import url("reset.css");
+
+.section{
+    
+     background-image: url(../img/img.png);
+     background-position: 0 0;
+     background-size:cover; 
+     background-repeat: no-repeat;  
+     max-width: 100%;
+     height: 600px;
+     font-family: "Poppins";
+     font-size: 12px;
+     font-weight: 300; 
+     margin-bottom: 200px;
+    
+
+}
+.section_text{
+ 
+   padding-top: 365px;
+   padding-left: 100px;
+   min-width: 605px;  
+   color: #f0f8ff;
+   height: 170px;
+}
+   
+.section_text p {
+   color:#d9d9d9 ;
+   line-height: 1.67;
+
+}
+.section_text h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.6;
+}
+.next_section{
+  max-width: 100%;
+  height: 560px;
+  /* ubackground-color: #99df72; */
+  margin-bottom: 200px; 
+   background-repeat: no-repeat;
+   background-position: 65%;
+   background-image: url(../img/speaker\ 1.png),linear-gradient(107deg, rgba(236, 240, 253, 1) 58%, rgba(224, 230, 251, 1) 58%, rgba(231, 236, 252, 1) 62%, rgba(210, 221, 254, 1) 62%, rgba(219, 225, 244, 1) 98%, rgba(218, 226, 251, 1) 100%);
+}
+
+
+ 
+.content{
+   max-width: 631px; 
+   height:269px ;
+  padding-top: 145px;
+  padding-left: 135px;
+  font-family: 'Inter';
+  font-style: normal; 
+}
+.text_1{
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #3056D3;
+  margin-bottom: 13px;
+}
+
+.text_2 {
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.25;
+    color: #212B36;
+    margin-bottom: 15px;
+}
+.text_3 {
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #637381;
+    margin-bottom: 35px;
+}
+
+.item{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color:#3056D3; ;
+  color: #FFFFFF;;
+  border-radius: 30px;
+  margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height:1.5;
+}
+.images{
+  max-width: 272px;
+    height: 396px;
+}
+/* Списки */
+.word_list {
+  max-width: 100%;
+  margin-top: 100px;
+
+ }
+
+.title {
+  margin-left: 135px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  font-family: "Inter";
+  font: 26px sans-serif;
+  font-weight: 400;
+  line-height: 1.08;
+
+}
+
+.lists {
+  max-width: 1440px;
+  font-family: "Inter"; 
+  font-size: 16px;
+  font-style: normal;
+  
+  font-weight: 700;
+  color: #637381; 
+  padding-left: 100px; 
+}
+
+.lists ul{
+  margin-bottom: 50px;
+}
+.list_1 li{
+ background:url(../img/Ellipse\ 2744.png) 0 50%/8px 8.4px no-repeat ;
+padding-left: 15px;
+margin-right: 100px;
+margin-bottom: 20px;
+}
+.list_2 li{
+ background-image:url(../img/new.img/checkmark-circle\ \(2\)\ 1.png);
+ background-repeat: no-repeat;
+ background-size: 20px;
+ padding-bottom: 20px;
+ padding-left: 25px;
+ padding-top: 3px;
+ 
+}
+.list_3 li {
+ background-image: url(../img/checkmark-circle\ \(2\)\ 1.png);
+ background-repeat: no-repeat;
+ background-size: 20px;
+ padding-bottom: 20px;
+  padding-left: 25px;
+}
+.list_4 li {
+  background-image: url(../img/cross-circle\ \(1\)\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-bottom: 20px;  
+  padding-left: 25px;
+}
+.list_5 li {
+  background-image: url(../img/arrow-right\ \(7\)\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.list_6{
+  padding-bottom: 150px;
+}
+.list_6 li {
+  background-image: url(../img/star\ \(1\)\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
