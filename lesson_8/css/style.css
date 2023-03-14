@@ -129,7 +129,7 @@ p {
    background-image: url(../img/Ellipse\ 2744.png);
    background-repeat: no-repeat;
    padding-left: 20px;
-   margin-bottom: 18px;
+   
  } 
 
  .list_1 li:hover{
@@ -139,13 +139,19 @@ p {
    margin-right: 129px;
      
  } 
+ 
+ .list_1 li:not(:last-child){
+   margin-bottom: 18px;
+ }
  .list_2 li{
    
    background-image: url(../img/checkmark-circle\ \(2\)\ 1.png);
     background-repeat: no-repeat; 
-    margin-bottom: 18px;
     padding-left: 40px;
     min-height: 20px;
+}
+.list_2 li:not(:last-child){
+   margin-bottom: 18px;
 }
 .list_2 {
    margin-right: 129px;   
@@ -157,24 +163,28 @@ p {
    
    background-image: url(../img/new.img/checkmark-circle\ \(2\)\ 1.png);
    background-repeat: no-repeat;
-   margin-bottom: 18px;
    padding-left: 40px;
    min-height: 20px;
 }
 .list_2 li:hover{
    color: chartreuse;
 }
+.list_3 li:not(:last-child) {
+   margin-bottom: 18px;}
 .list_4 li {
 
    background-image: url(../img/cross-circle\ \(1\)\ 1.png);
    background-repeat: no-repeat;
-   margin-bottom: 18px;
+   
    padding-left: 40px;
    min-height: 20px;
 }
 .list_4 {
    margin-right: 110px;
 }
+.list_4 li:not(:last-child) {
+      margin-bottom: 18px;}
+      
 .list_3:hover +.list_4{
    color: coral;
 }
@@ -182,7 +192,6 @@ p {
 
    background-image: url(../img/arrow-right\ \(7\)\ 1.png);
    background-repeat: no-repeat;
-   margin-bottom: 18px;
    padding-left: 40px;
    min-height: 20px;
 }
@@ -190,14 +199,17 @@ p {
 .list_5 {
    margin-right: 129px;
 }
+.list_5 li:not(:last-child) {
+      margin-bottom: 18px;}
 .list_6 li {
 
    background-image: url(../img/star\ \(1\)\ 1.png);
    background-repeat: no-repeat;
-   margin-bottom: 18px;
    padding-left: 40px;
    min-height: 20px;
 }
+.list_2 li:not(:last-child) {
+   margin-bottom: 18px;}
 
 .blok{
    text-align: center;
